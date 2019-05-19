@@ -1,3 +1,14 @@
-html {
-  background-color: red;
+@import "reset.scss";
+
+html, body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
 }
