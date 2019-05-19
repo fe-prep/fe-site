@@ -21,5 +21,6 @@ module.exports = {
         implementation: require("sass"),
       },
     },
-  ]
+  ],
+  pathPrefix: "/fe-site"
 }
