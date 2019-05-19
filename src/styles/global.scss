@@ -1,14 +1,6 @@
-@import "reset.scss";
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600&display=swap');
 
-html, body {
-  height: 100%;
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-a {
-  text-decoration: none;
-}
+@import "reset";
+@import "common";
+@import "header";
+@import "typography";

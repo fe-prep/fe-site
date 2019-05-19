@@ -1,0 +1,49 @@
+$header-color: #465f82;
+
+header {
+  background-color: $header-color;
+
+  ul {
+    display: flex;
+
+    .nav-link {
+      color: #fff;
+      opacity: 0.8;
+      font-weight: 600;
+
+      &.nav-link--active, &:hover {
+        opacity: 1;
+      }
+
+      a {
+        display: inline-block;
+        padding: 1rem;
+      }
+
+      &:first-child a {
+        padding-left: 0;
+      }
+    }
+  }
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__search {
+  input {
+    color: #fff;
+    margin: 0.6rem 0;
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: darken($header-color, 10%);
+
+    &::placeholder {
+      color: #fff;
+      opacity: 0.5;
+    }
+  }
+}
